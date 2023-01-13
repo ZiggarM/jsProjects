@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 605px;
+    height: 605px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tile {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.mole {
+    background-color: blue;
+}
+
+button {
+    display: inline
+}
+
+h1 {
+    margin: 0;
+}
